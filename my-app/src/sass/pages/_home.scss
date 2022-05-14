@@ -1,0 +1,80 @@
+.home-caontainer {
+    gap: 1rem;
+}
+
+.home-content {
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home-social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home-social-icon {
+    font-size: 1.25rem;
+    color: $first-color;
+}
+
+.home-social-icon:hover {
+    color: $first-color-alt;
+}
+
+.home-blob {
+    width: 200px;
+    fill: $first-color;
+}
+
+.home-blob-img {
+    width: 170px;
+}
+
+.home-data {
+    grid-column: 1/3;
+}
+
+.home-title {
+    font-size: $big-font-size;
+}
+
+.home-subtitle {
+    font-size: $h3-font-size;
+    color: $text-color;
+    font-weight: $font-medium;
+    margin-bottom: $mb-0-75;
+}
+
+.home-description {
+    margin-bottom: $mb-2;
+}
+
+.home-scroll {
+    display: none;
+}
+
+.home-scroll-button {
+    color: $first-color;
+    transition: .3s;
+}
+
+.home-scroll-button:hover {
+    transform: translateY(0.25rem);
+}
+
+.home-scroll-mouse {
+    font-size: 2rem;
+}
+
+.home-scroll-name {
+    font-size: $small-font-size;
+    color: $title-color;
+    font-weight: $font-medium;
+    margin-right: $mb-0-25;
+}
+
+.home-scroll-arrow {
+    font-size: 1.25rem;
+}
