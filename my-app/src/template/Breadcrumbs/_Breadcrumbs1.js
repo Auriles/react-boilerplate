@@ -2,16 +2,10 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
 
-class Exemple extends Component {
+class Breadcrumbs1 extends Component {
     render() {
         return (
             <>
-                <style>
-                    .clip {
-                        clip-path: polygon(0 0, 0% 100%, 100% 50%);
-                    }
-                </style>
-
                 <nav class="flex" aria-label="Breadcrumb">
                     <ol role="list" class="flex overflow-hidden text-gray-700 border border-gray-200 rounded-lg">
                         <li class="flex items-center">
@@ -41,4 +35,4 @@ class Exemple extends Component {
     }
 }
 
-export default Exemple;
+export default Breadcrumbs1;
