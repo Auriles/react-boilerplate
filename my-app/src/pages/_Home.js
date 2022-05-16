@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 import ButtonsExemple from '../template/Buttons/_ButtonsExemple';
 import ButtonsGroupExemple from "../template/ButtonsGroup/_ButtonsGroupExemple";
 import BreadcrumbsExemple from "../template/Breadcrumbs/_BreadcrumbsExemple";
+import CardsExemple from "../template/Cards/_CardsExemple";
 
 // Layouts
 import BannersExemple from "../template/Banners/_BannersExemple";
@@ -15,6 +16,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <CardsExemple />
                 <BreadcrumbsExemple />
                 <BannersExemple />
                 <ButtonsExemple />
