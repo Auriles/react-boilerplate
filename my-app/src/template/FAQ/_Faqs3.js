@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
 
-class Faqs1 extends Component {
+class Faqs3 extends Component {
     render() {
         return (
             <>
@@ -76,4 +76,4 @@ class Faqs1 extends Component {
     }
 }
 
-export default Faqs1;
+export default Faqs3;

@@ -9,6 +9,7 @@ import BreadcrumbsExemple from "../template/Breadcrumbs/_BreadcrumbsExemple";
 import CardsExemple from "../template/Cards/_CardsExemple";
 import FaqsExemple from "../template/FAQ/_FaqsExemple";
 import FiltersExemple from "../template/Filters/_FiltersExemple";
+import FormsExemple from "../template/Forms/_FormsExemple";
 
 // Layouts
 import SectionsExemple from "../template/Sections/_SectionsExemple";
@@ -19,6 +20,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <FormsExemple />
                 <FiltersExemple />
                 <FaqsExemple />
                 <SectionsExemple />
