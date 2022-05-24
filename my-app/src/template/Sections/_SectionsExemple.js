@@ -6,6 +6,12 @@ import Sections2 from './_Sections2';
 import Sections3 from './_Sections3';
 import Sections4 from './_Sections4';
 import Sections5 from './_Sections5';
+import Sections6 from './_Sections6';
+import Sections7 from './_Sections7';
+import Sections8 from './_Sections8';
+import Sections9 from './_Sections9';
+import Sections10 from './_Sections10';
+import Sections11 from './_Sections11';
 
 class SectionsExemple extends Component {
     render() {
@@ -16,6 +22,12 @@ class SectionsExemple extends Component {
                 <Sections3 />
                 <Sections4 />
                 <Sections5 />
+                <Sections6 />
+                <Sections7 />
+                <Sections8 />
+                <Sections9 />
+                <Sections10 />
+                <Sections11 />
             </>
         );
     }
