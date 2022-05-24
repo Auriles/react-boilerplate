@@ -13,6 +13,7 @@ import FormsExemple from "../template/Forms/_FormsExemple";
 import InputsExemple from "../template/Inputs/_InputsExemple";
 
 // Layouts
+import NavbarsExemple from "../template/Navbars/_NavbarsExemple";
 import SectionsExemple from "../template/Sections/_SectionsExemple";
 import BannersExemple from "../template/Banners/_BannersExemple";
 import FooterExemple from "../template/Footers/_FooterExemple";
@@ -21,6 +22,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <NavbarsExemple />
                 <InputsExemple />
                 <FormsExemple />
                 <FiltersExemple />
