@@ -15,6 +15,7 @@ import PaginationsExemple from "../template/Paginations/_PaginationsExemple";
 import PopupsExemple from "../template/Popups/_PopupsExemple";
 import TestimonialsExemple from "../template/Testimonials/_TestimonialsExemple";
 import StatsExemple from "../template/Stats/_StatsExemple";
+import RadiosGroupExemple from "../template/RadiosGroup/_RadiosGroupExemple";
 
 
 // Layouts
@@ -30,6 +31,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <RadiosGroupExemple />
                 <StatsExemple />
                 <TestimonialsExemple />
                 {/* <PopupsExemple /> */}
