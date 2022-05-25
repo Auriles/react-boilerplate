@@ -13,6 +13,7 @@ import FormsExemple from "../template/Forms/_FormsExemple";
 import InputsExemple from "../template/Inputs/_InputsExemple";
 import PaginationsExemple from "../template/Paginations/_PaginationsExemple";
 import PopupsExemple from "../template/Popups/_PopupsExemple";
+import TestimonialsExemple from "../template/Testimonials/_TestimonialsExemple";
 
 
 // Layouts
@@ -28,6 +29,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <TestimonialsExemple />
                 {/* <PopupsExemple /> */}
                 <PaginationsExemple />
                 <NavbarsExemple />
