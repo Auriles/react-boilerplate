@@ -11,7 +11,9 @@ import FaqsExemple from "../template/FAQ/_FaqsExemple";
 import FiltersExemple from "../template/Filters/_FiltersExemple";
 import FormsExemple from "../template/Forms/_FormsExemple";
 import InputsExemple from "../template/Inputs/_InputsExemple";
+import PaginationsExemple from "../template/Paginations/_PaginationsExemple";
 import PopupsExemple from "../template/Popups/_PopupsExemple";
+
 
 // Layouts
 import NavbarsExemple from "../template/Navbars/_NavbarsExemple";
@@ -26,7 +28,8 @@ class Home extends Component {
     render() {
         return (
             <>
-                <PopupsExemple />
+                {/* <PopupsExemple /> */}
+                <PaginationsExemple />
                 <NavbarsExemple />
                 <InputsExemple />
                 <FormsExemple />
