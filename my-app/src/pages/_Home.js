@@ -11,6 +11,7 @@ import FaqsExemple from "../template/FAQ/_FaqsExemple";
 import FiltersExemple from "../template/Filters/_FiltersExemple";
 import FormsExemple from "../template/Forms/_FormsExemple";
 import InputsExemple from "../template/Inputs/_InputsExemple";
+import PopupsExemple from "../template/Popups/_PopupsExemple";
 
 // Layouts
 import NavbarsExemple from "../template/Navbars/_NavbarsExemple";
@@ -18,10 +19,14 @@ import SectionsExemple from "../template/Sections/_SectionsExemple";
 import BannersExemple from "../template/Banners/_BannersExemple";
 import FooterExemple from "../template/Footers/_FooterExemple";
 
+// Three
+// import Cube from "../three/_Cube";
+
 class Home extends Component {
     render() {
         return (
             <>
+                <PopupsExemple />
                 <NavbarsExemple />
                 <InputsExemple />
                 <FormsExemple />
