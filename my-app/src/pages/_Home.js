@@ -16,6 +16,7 @@ import PopupsExemple from "../template/Popups/_PopupsExemple";
 import TestimonialsExemple from "../template/Testimonials/_TestimonialsExemple";
 import StatsExemple from "../template/Stats/_StatsExemple";
 import RadiosGroupExemple from "../template/RadiosGroup/_RadiosGroupExemple";
+import StepsExemple from "../template/Steps/_StepsExemple";
 
 
 // Layouts
@@ -31,6 +32,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <StepsExemple />
                 <RadiosGroupExemple />
                 <StatsExemple />
                 <TestimonialsExemple />
