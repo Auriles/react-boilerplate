@@ -18,6 +18,7 @@ import StatsExemple from "../template/Stats/_StatsExemple";
 import RadiosGroupExemple from "../template/RadiosGroup/_RadiosGroupExemple";
 import StepsExemple from "../template/Steps/_StepsExemple";
 import TablesExemple from "../template/Tables/_TablesExemple";
+import CartsExemple from "../template/Carts/_CartsExemple";
 
 
 // Layouts
@@ -33,6 +34,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <CartsExemple />
                 <TablesExemple />
                 <StepsExemple />
                 <RadiosGroupExemple />
