@@ -1,0 +1,40 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
+import React, { Component } from 'react';
+
+class ProductCards4 extends Component {
+    render() {
+        return (
+            <>
+                <a
+                class="block overflow-hidden group"
+                href="/products/basic-tee"
+                >
+                    <div class="shadow-[0_4px_0_0_rgba(0,0,0,1)] border-2 border-black rounded-3xl overflow-hidden">
+                        <img
+                        class="group-hover:scale-105 transition-transform duration-500 object-cover w-full h-[350px] sm:h-[450px]"
+                        src="../../photos/tee-green-person-2.png"
+                        alt="Basic Tee Product"
+                        />
+                    </div>
+
+                    <div class="relative pt-4">
+                        <h3 class="text-sm group-hover:underline group-hover:underline-offset-4">
+                        Basic Tee
+                        </h3>
+
+                        <p class="mt-2">
+                        <span class="sr-only"> Regular Price </span>
+
+                        <span class="font-medium tracking-wider">
+                            £24.00 GBP
+                        </span>
+                        </p>
+                    </div>
+                </a>
+            </>
+        );
+    }
+}
+
+export default ProductCards4;

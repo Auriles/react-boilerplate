@@ -20,6 +20,7 @@ import StepsExemple from "../template/Steps/_StepsExemple";
 import TablesExemple from "../template/Tables/_TablesExemple";
 import CartsExemple from "../template/Carts/_CartsExemple";
 import CheckoutsExemple from "../template/Checkouts/_CheckoutsExemple";
+import ProductCardsExemple from "../template/ProductCards/_ProductCardsExemple";
 
 
 // Layouts
@@ -35,6 +36,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <ProductCardsExemple />
                 <CheckoutsExemple />
                 <CartsExemple />
                 <TablesExemple />
