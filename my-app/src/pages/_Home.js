@@ -12,7 +12,7 @@ import FiltersExemple from "../template/Filters/_FiltersExemple";
 import FormsExemple from "../template/Forms/_FormsExemple";
 import InputsExemple from "../template/Inputs/_InputsExemple";
 import PaginationsExemple from "../template/Paginations/_PaginationsExemple";
-import PopupsExemple from "../template/Popups/_PopupsExemple";
+// import PopupsExemple from "../template/Popups/_PopupsExemple";
 import TestimonialsExemple from "../template/Testimonials/_TestimonialsExemple";
 import StatsExemple from "../template/Stats/_StatsExemple";
 import RadiosGroupExemple from "../template/RadiosGroup/_RadiosGroupExemple";
@@ -30,6 +30,7 @@ import NavbarsExemple from "../template/Navbars/_NavbarsExemple";
 import SectionsExemple from "../template/Sections/_SectionsExemple";
 import BannersExemple from "../template/Banners/_BannersExemple";
 import FooterExemple from "../template/Footers/_FooterExemple";
+import HeadersExemple from "../template/Headers/_HeadersExemple";
 
 // Three
 // import Cube from "../three/_Cube";
@@ -38,6 +39,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <HeadersExemple />
                 <ProductsExemple />
                 <ProductCollectionsExemple />
                 <ProductCardsExemple />
