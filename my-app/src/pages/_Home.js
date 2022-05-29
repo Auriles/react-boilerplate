@@ -31,6 +31,7 @@ import SectionsExemple from "../template/Sections/_SectionsExemple";
 import BannersExemple from "../template/Banners/_BannersExemple";
 import FooterExemple from "../template/Footers/_FooterExemple";
 import HeadersExemple from "../template/Headers/_HeadersExemple";
+import SideMenusExemple from "../template/SideMenus/_SideMenusExemple";
 
 // Three
 // import Cube from "../three/_Cube";
@@ -39,6 +40,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <SideMenusExemple />
                 <HeadersExemple />
                 <ProductsExemple />
                 <ProductCollectionsExemple />
