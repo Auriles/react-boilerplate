@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 // Components
 import ButtonsExemple from '../template/Buttons/_ButtonsExemple';
@@ -12,7 +13,7 @@ import FiltersExemple from "../template/Filters/_FiltersExemple";
 import FormsExemple from "../template/Forms/_FormsExemple";
 import InputsExemple from "../template/Inputs/_InputsExemple";
 import PaginationsExemple from "../template/Paginations/_PaginationsExemple";
-// import PopupsExemple from "../template/Popups/_PopupsExemple";
+import PopupsExemple from "../template/Popups/_PopupsExemple";
 import TestimonialsExemple from "../template/Testimonials/_TestimonialsExemple";
 import StatsExemple from "../template/Stats/_StatsExemple";
 import RadiosGroupExemple from "../template/RadiosGroup/_RadiosGroupExemple";
@@ -40,32 +41,36 @@ class Home extends Component {
     render() {
         return (
             <>
-                <SideMenusExemple />
-                <HeadersExemple />
-                <ProductsExemple />
-                <ProductCollectionsExemple />
-                <ProductCardsExemple />
-                <CheckoutsExemple />
-                <CartsExemple />
-                <TablesExemple />
-                <StepsExemple />
-                <RadiosGroupExemple />
-                <StatsExemple />
-                <TestimonialsExemple />
-                {/* <PopupsExemple /> */}
-                <PaginationsExemple />
-                <NavbarsExemple />
-                <InputsExemple />
-                <FormsExemple />
-                <FiltersExemple />
-                <FaqsExemple />
-                <SectionsExemple />
-                <CardsExemple />
-                <BreadcrumbsExemple />
-                <BannersExemple />
-                <ButtonsExemple />
-                <ButtonsGroupExemple />
-                <FooterExemple />
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/side-menus-exemple" element={<SideMenusExemple/>} />
+                        <Route path="/headers-exemple" element={<HeadersExemple />} />
+                        <Route path="/products-exemple" element={<ProductsExemple />} />
+                        <Route path="/product-collections-exemple" element={<ProductCollectionsExemple />} />
+                        <Route path="/product-cards-exemple" element={<ProductCardsExemple />} />
+                        <Route path="/checkouts-exemple" element={<CheckoutsExemple />} />
+                        <Route path="/carts-exemple" element={<CartsExemple />} />
+                        <Route path="/tables-exemple" element={<TablesExemple />} />
+                        <Route path="/steps-exemple" element={<StepsExemple />} />
+                        <Route path="/radios-group-exemple" element={<RadiosGroupExemple />} />
+                        <Route path="/stats-exemple" element={<StatsExemple />} />
+                        <Route path="/testimonials-exemple" element={<TestimonialsExemple />} />
+                        <Route path="/popups-exemple" element={<PopupsExemple />} />
+                        <Route path="/paginations-exemple" element={<PaginationsExemple />} />
+                        <Route path="/navbars-exemple" element={<NavbarsExemple />} />
+                        <Route path="/inputs-exemple" element={<InputsExemple />} />
+                        <Route path="/forms-exemple" element={<FormsExemple />} />
+                        <Route path="/filters-exemple" element={<FiltersExemple />} />
+                        <Route path="/faqs-exemple" element={<FaqsExemple />} />
+                        <Route path="/sections-exemple" element={<SectionsExemple />} />
+                        <Route path="/cards-exemple" element={<CardsExemple />} />
+                        <Route path="/breadcrumbs-exemple" element={<BreadcrumbsExemple />} />
+                        <Route path="/banners-exemple" element={<BannersExemple />} />
+                        <Route path="/buttons-exemple" element={<ButtonsExemple />} />
+                        <Route path="/buttons-group-exemple" element={<ButtonsGroupExemple />} />
+                        <Route path="/footers-exemple" element={<FooterExemple />} />
+                    </Routes>
+                </BrowserRouter>
             </>
         );
     }
