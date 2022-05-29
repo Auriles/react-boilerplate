@@ -21,6 +21,7 @@ import TablesExemple from "../template/Tables/_TablesExemple";
 import CartsExemple from "../template/Carts/_CartsExemple";
 import CheckoutsExemple from "../template/Checkouts/_CheckoutsExemple";
 import ProductCardsExemple from "../template/ProductCards/_ProductCardsExemple";
+import ProductCollectionsExemple from "../template/ProductCollections/_ProductCollectionsExemple";
 
 
 // Layouts
@@ -36,6 +37,7 @@ class Home extends Component {
     render() {
         return (
             <>
+                <ProductCollectionsExemple />
                 <ProductCardsExemple />
                 <CheckoutsExemple />
                 <CartsExemple />
