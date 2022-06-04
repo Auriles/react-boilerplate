@@ -7,34 +7,193 @@ class NavLinks extends Component {
     render() {
         return (
             <>
-                <div className="navlinks">
-                    <NavLink to="/side-menus-exemple">SideMenusExemple</NavLink>
-                    <NavLink to="/headers-exemple">HeadersExemple</NavLink>
-                    <NavLink to="/products-exemple">ProductsExemple</NavLink>
-                    <NavLink to="/product-collections-exemple">ProductCollectionsExemple</NavLink>
-                    <NavLink to="/product-cards-exemple">ProductCardsExemple</NavLink>
-                    <NavLink to="/checkouts-exemple">CheckoutsExemple</NavLink>
-                    <NavLink to="/carts-exemple">CartsExemple</NavLink>
-                    <NavLink to="/tables-exemple">TablesExemple</NavLink>
-                    <NavLink to="/steps-exemple">StepsExemple</NavLink>
-                    <NavLink to="/radios-group-exemple">RadiosGroupExemple</NavLink>
-                    <NavLink to="/stats-exemple">StatsExemple</NavLink>
-                    <NavLink to="/testimonials-exemple">TestimonialsExemple</NavLink>
-                    <NavLink to="/popups-exemple">PopupsExemple</NavLink>
-                    <NavLink to="/paginations-exemple">PaginationsExemple</NavLink>
-                    <NavLink to="/navbars-exemple">NavbarsExemple</NavLink>
-                    <NavLink to="/inputs-exemple">InputsExemple</NavLink>
-                    <NavLink to="/forms-exemple">FormsExemple</NavLink>
-                    <NavLink to="/filters-exemple">FiltersExemple</NavLink>
-                    <NavLink to="/faqs-exemple">FaqsExemple</NavLink>
-                    <NavLink to="/sections-exemple">SectionsExemple</NavLink>
-                    <NavLink to="/cards-exemple">CardsExemple</NavLink>
-                    <NavLink to="/breadcrumbs-exemple">BreadcrumbsExemple</NavLink>
-                    <NavLink to="/banners-exemple">BannersExemple</NavLink>
-                    <NavLink to="/buttons-exemple">ButtonsExemple</NavLink>
-                    <NavLink to="/buttons-group-exemple">ButtonsGroupExemple</NavLink>
-                    <NavLink to="/footers-exemple">FooterExemple</NavLink>
-                </div>
+
+                <header class="border-b border-gray-100">
+                        <div
+                            class="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
+                        >
+                            <div class="flex items-center">
+                            <button type="button" class="p-2 sm:mr-4 lg:hidden">
+                                <svg
+                                class="w-6 h-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                />
+                                </svg>
+                            </button>
+
+                            <a href="" class="flex">
+                                <span class="inline-block w-32 h-10 bg-gray-200 rounded-lg"></span>
+                            </a>
+                            </div>
+
+                            <div class="flex items-center justify-end flex-1">
+                            <nav class="hidden lg:uppercase lg:text-gray-500 lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex">
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/side-menus-exemple">SideMenusExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/headers-exemple">HeadersExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/products-exemple">ProductsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/product-collections-exemple">ProductCollectionsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/product-cards-exemple">ProductCardsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/checkouts-exemple">CheckoutsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/carts-exemple">CartsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/tables-exemple">TablesExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/steps-exemple">StepsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/radios-group-exemple">RadiosGroupExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/stats-exemple">StatsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/testimonials-exemple">TestimonialsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/popups-exemple">PopupsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/paginations-exemple">PaginationsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/navbars-exemple">NavbarsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/inputs-exemple">InputsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/forms-exemple">FormsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/filters-exemple">FiltersExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/faqs-exemple">FaqsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/cards-exemple">CardsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/breadcrumbs-exemple">BreadcrumbsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/banners-exemple">BannersExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/buttons-exemple">ButtonsExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/buttons-group-exemple">ButtonsGroupExemple</NavLink>
+                                </a>
+                                <a href="" class="block h-16 leading-[4rem] border-b-4 border-transparent hover:text-red-700 hover:border-current">
+                                    <NavLink to="/footers-exemple">FooterExemple</NavLink>
+                                </a>
+                            </nav>
+
+                            <div class="flex items-center ml-8">
+                                <div
+                                class="flex items-center border-gray-100 divide-x divide-gray-100 border-x"
+                                >
+                                <span>
+                                    <a
+                                    href="/cart"
+                                    class="block p-6 border-b-4 border-transparent hover:border-red-700"
+                                    >
+                                    <svg
+                                        class="w-4 h-4"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                                        />
+                                    </svg>
+
+                                    <span class="sr-only">Cart</span>
+                                    </a>
+                                </span>
+
+                                <span>
+                                    <a
+                                    href="/account"
+                                    class="block p-6 border-b-4 border-transparent hover:border-red-700"
+                                    >
+                                    <svg
+                                        class="w-4 h-4"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                                        />
+                                    </svg>
+
+                                    <span class="sr-only"> Account </span>
+                                    </a>
+                                </span>
+
+                                <span class="hidden sm:block">
+                                    <a
+                                    href="/search"
+                                    class="block p-6 border-b-4 border-transparent hover:border-red-700"
+                                    >
+                                    <svg
+                                        class="w-4 h-4"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                        />
+                                    </svg>
+
+                                    <span class="sr-only"> Search </span>
+                                    </a>
+                                </span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </header>
             </>
         );
     }

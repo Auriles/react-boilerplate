@@ -12,6 +12,7 @@ import Sections8 from './_Sections8';
 import Sections9 from './_Sections9';
 import Sections10 from './_Sections10';
 import Sections11 from './_Sections11';
+import Sections12 from './_Sections12';
 
 class SectionsExemple extends Component {
     render() {
@@ -28,6 +29,7 @@ class SectionsExemple extends Component {
                 <Sections9 />
                 <Sections10 />
                 <Sections11 />
+                <Sections12 />
             </>
         );
     }
