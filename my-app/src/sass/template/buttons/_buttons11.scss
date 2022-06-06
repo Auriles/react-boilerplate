@@ -1,7 +1,82 @@
+$buttons11-clr: #1e9bff;
+
 .buttons11 {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #27282c;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.buttons11 a {
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.buttons11 a:hover {
+    letter-spacing: 0.25em;
+    background: $buttons11-clr;
+    box-shadow: 0 0 35px $buttons11-clr;
+}
+
+.buttons11 a::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+
+.buttons11 a span {
+    position: relative;
+}
+
+.buttons11 a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.buttons11 a i::before {
+    content: '';
+    position: absolute;
+    top: -3.5px;
+    left: 80%;
+    width: 16px;
+    height: 8px;
+    border: 2px solid $buttons11-clr;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.buttons11 a:hover i::before {
+    width: 20px;
+    left: 20%;
+}
+
+.buttons11 a i::after {
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 16px;
+    height: 8px;
+    border: 2px solid $buttons11-clr;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.buttons11 a:hover i::after {
+    width: 20px;
+    left: 80%;
 }

@@ -8,6 +8,7 @@ class Buttons11 extends Component {
             <div className="buttons11">
                 <a href="">
                     <span>Button</span>
+                    <i></i>
                 </a>
             </div>
         );
