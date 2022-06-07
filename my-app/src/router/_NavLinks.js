@@ -9,139 +9,139 @@ class NavLinks extends Component {
             <div className="navlinks-container">
                 <div className="navlinks">
                     <NavLink to="/side-menus-exemple">
-                        <span>SideMenusExemple</span>
+                        <span>SideMenus</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/headers-exemple">
-                        <span>HeadersExemple</span>
+                        <span>Headers</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/products-exemple">
-                        <span>ProductsExemple</span>
+                        <span>Products</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/product-collections-exemple">
-                        <span>ProductCollectionsExemple</span>
+                        <span>ProductCollections</span>
                         <i></i>
                     </NavLink>
                 </div>
 
                 <div className="navlinks">
                     <NavLink to="/product-cards-exemple">
-                        <span>ProductCardsExemple</span>
+                        <span>ProductCards</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/checkouts-exemple">
-                        <span>CheckoutsExemple</span>
+                        <span>Checkouts</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/carts-exemple">
-                        <span>CartsExemple</span>
+                        <span>Carts</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/tables-exemple">
-                        <span>TablesExemple</span>
+                        <span>Tables</span>
                         <i></i>
                     </NavLink>
                 </div>
 
                 <div className="navlinks">
                     <NavLink to="/steps-exemple">
-                        <span>StepsExemple</span>
+                        <span>Steps</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/radios-group-exemple">
-                        <span>RadiosGroupExemple</span>
+                        <span>RadiosGroup</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/stats-exemple">
-                        <span>StatsExemple</span>
+                        <span>Stats</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/testimonials-exemple">
-                        <span>TestimonialsExemple</span>
+                        <span>Testimonials</span>
                         <i></i>
                     </NavLink>
                 </div>
 
                 <div className="navlinks">
                     <NavLink to="/popups-exemple">
-                        <span>PopupsExemple</span>
+                        <span>Popups</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/paginations-exemple">
-                        <span>PaginationsExemple</span>
+                        <span>Paginations</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/navbars-exemple">
-                        <span>NavbarsExemple</span>
+                        <span>Navbars</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/inputs-exemple">
-                        <span>InputsExemple</span>
+                        <span>Inputs</span>
                         <i></i>
                     </NavLink>
                 </div>
 
                 <div className="navlinks">
                     <NavLink to="/forms-exemple">
-                        <span>FormsExemple</span>
+                        <span>Forms</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/filters-exemple">
-                        <span>FiltersExemple</span>
+                        <span>Filters</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/faqs-exemple">
-                        <span>FaqsExemple</span>
+                        <span>Faqs</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/cards-exemple">
-                        <span>CardsExemple</span>
+                        <span>Cards</span>
                         <i></i>
                     </NavLink>
                 </div>
 
                 <div className="navlinks">
                     <NavLink to="/breadcrumbs-exemple">
-                        <span>BreadcrumbsExemple</span>
+                        <span>Breadcrumbs</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/banners-exemple">
-                        <span>BannersExemple</span>
+                        <span>Banners</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/buttons-exemple">
-                        <span>ButtonsExemple</span>
+                        <span>Buttons</span>
                         <i></i>
                     </NavLink>
 
                     <NavLink to="/buttons-group-exemple">
-                        <span>ButtonsGroupExemple</span>
+                        <span>ButtonsGroup</span>
                         <i></i>
                     </NavLink>
                 </div>
 
                 <div className="navlinks">
                     <NavLink to="/footers-exemple">
-                        <span>FooterExemple</span>
+                        <span>Footer</span>
                         <i></i>
                     </NavLink>
                 </div>
