@@ -1,11 +1,17 @@
 $buttons11-clr: #1e9bff;
 
+.navlinks-container {
+    min-height: 100vh;
+    background: #27282c;
+}
+
 .navlinks {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background: #27282c;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .navlinks a {
