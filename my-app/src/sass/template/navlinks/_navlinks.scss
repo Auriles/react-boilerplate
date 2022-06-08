@@ -84,3 +84,38 @@ $buttons11-clr: #1e9bff;
     width: 20px;
     left: 80%;
 }
+
+// -------------------------------
+
+$extra-large: 20px;
+$stroke-width: 10px;
+$pink: #1e9bff;
+
+.neon-text {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    $random-text: 'underlying wire';
+    position: relative;
+    $stroke-width: $extra-large * 0.05;
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    font-size: $extra-large;
+    color: lighten($pink, 25%);
+    -webkit-text-stroke-width: $stroke-width;
+    -webkit-text-stroke-color: lighten($pink, 5%);
+    text-align: center;
+    text-shadow: 0 0 40px lighten($pink, 5%),
+        0 0 40px lighten($pink, 5%),
+        0 0 40px lighten($pink, 5%);
+
+    &:after {
+        content: $random-text;
+        z-index: -1;
+        position: absolute;
+        color: transparent;
+        -webkit-text-stroke-width: $stroke-width;
+        -webkit-text-stroke-color: darken($pink, 40%);
+        top: -5%;
+        left: -0.5%;
+    }
+}

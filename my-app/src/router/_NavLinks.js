@@ -7,7 +7,13 @@ class NavLinks extends Component {
     render() {
         return (
             <div className="navlinks-container">
+
+                <div className="neon-text">
+                    <p>Layouts_</p>
+                </div>
+
                 <div className="navlinks">
+
                     <NavLink to="/side-menus-exemple">
                         <span>SideMenus</span>
                         <i></i>
@@ -27,6 +33,10 @@ class NavLinks extends Component {
                         <span>ProductCollections</span>
                         <i></i>
                     </NavLink>
+                </div>
+
+                <div className="neon-text">
+                    <p>Components_</p>
                 </div>
 
                 <div className="navlinks">
@@ -49,6 +59,10 @@ class NavLinks extends Component {
                         <span>Tables</span>
                         <i></i>
                     </NavLink>
+                </div>
+
+                <div className="neon-text">
+                    <p>Menus_</p>
                 </div>
 
                 <div className="navlinks">
@@ -142,6 +156,11 @@ class NavLinks extends Component {
                 <div className="navlinks">
                     <NavLink to="/footers-exemple">
                         <span>Footer</span>
+                        <i></i>
+                    </NavLink>
+
+                    <NavLink to="/">
+                        <span>Home</span>
                         <i></i>
                     </NavLink>
                 </div>
