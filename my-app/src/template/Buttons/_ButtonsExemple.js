@@ -12,6 +12,7 @@ import Buttons8 from "./_Buttons8";
 import Buttons9 from "./_Buttons9";
 import Buttons10 from "./_Buttons10";
 import Buttons11 from "./_Buttons11";
+import Buttons12 from "./_Buttons12";
 
 class ButtonsExemple extends Component {
     render() {
@@ -38,6 +39,8 @@ class ButtonsExemple extends Component {
                 <Buttons10 />
                 <br />
                 <Buttons11 />
+                <br />
+                <Buttons12 />
             </>
         );
     }
