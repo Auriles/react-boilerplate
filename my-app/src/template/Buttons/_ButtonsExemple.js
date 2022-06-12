@@ -19,27 +19,16 @@ class ButtonsExemple extends Component {
         return (
             <>
                 <Buttons1 />
-                <br/>
                 <Buttons2 />
-                <br/>
                 <Buttons3 />
-                <br/>
                 <Buttons4 />
-                <br/>
                 <Buttons5 />
-                <br/>
                 <Buttons6 />
-                <br/>
                 <Buttons7 />
-                <br/>
                 <Buttons8 />
-                <br/>
                 <Buttons9 />
-                <br/>
                 <Buttons10 />
-                <br />
                 <Buttons11 />
-                <br />
                 <Buttons12 />
             </>
         );

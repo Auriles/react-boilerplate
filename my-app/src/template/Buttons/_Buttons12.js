@@ -17,7 +17,7 @@ class Buttons12 extends Component {
                         <a href="">Read More</a>
                     </div>
                 </div>
-            </div>
+            </div> 
         );
     }
 }
