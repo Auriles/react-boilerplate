@@ -3,12 +3,20 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
 
+// Logo
+import logo from '../images/logo.png';
+
 class NavLinks extends Component {
     render() {
         return (
             <div class="flex flex-col justify-between h-screen bg-white border-r">
                 <div class="px-4 py-6">
-                    <span class="block w-32 h-10 bg-gray-200 rounded-lg"> Logo </span>
+                    {/* <span class="block w-32 h-10 bg-gray-200 rounded-lg"> Logo </span> */}
+                    <section className="">
+                        <div className="block w-32 h-16 rounded-lg">
+                            <img src={logo} alt="Logo Oauri" />
+                        </div>
+                    </section>
 
                     <nav class="flex flex-col mt-6 space-y-1">
 
