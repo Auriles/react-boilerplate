@@ -5,29 +5,31 @@ import React, { Component } from 'react';
 class Cards9 extends Component {
     render() {
         return (
-            <>
-                <a class="block h-56 group" href="/blog">
-                    <div
-                        class="relative flex items-end h-full transition bg-white border-4 border-black group-hover:-translate-x-2 group-hover:-translate-y-2 rounded-3xl group-hover:shadow-[8px_8px_0_0_#000] p-8"
-                    >
-                        <div class="lg:group-hover:opacity-0 lg:group-hover:absolute">
-                        <span class="text-3xl sm:text-4xl" role="img" aria-hidden="true">📆</span>
-                        <p class="mt-4 text-xl font-bold sm:text-2xl">Datepicker Clear</p>
-                        </div>
-
+            <div className='body-cards9'>
+                <div className="container-cards9">
+                    <a class="block h-56 group" href="/blog">
                         <div
-                        class="absolute opacity-0 lg:group-hover:opacity-100 lg:group-hover:relative"
+                            class="relative flex items-end h-full transition bg-white border-4 border-black group-hover:-translate-x-2 group-hover:-translate-y-2 rounded-3xl group-hover:shadow-[8px_8px_0_0_#000] p-8"
                         >
-                        <p class="text-2xl font-bold">Datepicker Clear</p>
+                            <div class="lg:group-hover:opacity-0 lg:group-hover:absolute">
+                            <span class="text-3xl sm:text-4xl" role="img" aria-hidden="true">📆</span>
+                            <p class="mt-4 text-xl font-bold sm:text-2xl">Datepicker Clear</p>
+                            </div>
 
-                        <p class="mt-4 text-lg font-medium leading-relaxed">
-                            Datepicker input using Flatpickr with a button that clears the selected
-                            date.
-                        </p>
+                            <div
+                            class="absolute opacity-0 lg:group-hover:opacity-100 lg:group-hover:relative"
+                            >
+                            <p class="text-2xl font-bold">Datepicker Clear</p>
+
+                            <p class="mt-4 text-lg font-medium leading-relaxed">
+                                Datepicker input using Flatpickr with a button that clears the selected
+                                date.
+                            </p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </>
+                    </a>
+                </div>
+            </div>
         );
     }
 }

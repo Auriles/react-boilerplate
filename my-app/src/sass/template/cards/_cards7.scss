@@ -1,3 +1,19 @@
 .cards7 {
     background-image: url(https://www.hyperui.dev/photos/beach-1.jpeg);
 }
+
+.body-cards7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #27282c;
+}
+
+.container-cards7 {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
