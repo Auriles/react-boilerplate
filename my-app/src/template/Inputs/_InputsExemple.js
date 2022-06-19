@@ -5,7 +5,6 @@ import Inputs1 from './_Inputs1';
 import Inputs2 from './_Inputs2';
 import Inputs3 from './_Inputs3';
 import Inputs4 from './_Inputs4';
-import Inputs5 from './_Inputs5';
 
 class InputsExemple extends Component {
     render() {
@@ -15,7 +14,6 @@ class InputsExemple extends Component {
                 <Inputs2 />
                 <Inputs3 />
                 <Inputs4 />
-                <Inputs5 />
             </>
         );
     }
